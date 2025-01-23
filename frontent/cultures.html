@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nepali Cultural Food Recipes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="image/logo.png" alt="Nepali Cuisine Logo">
+                <h1>Nepali Flavors</h1>
+            </div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="cultures.html">Cultures</a></li>
+                <li><a href="regions.html">Regions</a></li>
+                <li><a href="#about-us">About Us</a></li>
+            </ul>
+        </nav>
+        </nav>
+    </header>
+
+    <main>
+        <section id="cultures">
+            <h2>Nepali Cultural Cuisines</h2>
+            <div class="culture-grid">
+                <div class="culture-card" data-culture="newari">
+                    <img src="image/newari-cuisine.png" alt="Newari Cuisine">
+                    <h3>Newari Cuisine</h3>
+                    <p>Traditional cuisine of Kathmandu Valley</p>
+                    <a href="#" class="btn view-culture-foods">View Foods</a>
+                </div>
+                <div class="culture-card" data-culture="sherpa">
+                    <img src="image/sherpa-cuisine.png" alt="Sherpa Cuisine">
+                    <h3>Sherpa Cuisine</h3>
+                    <p>Mountain region specialties</p>
+                    <a href="#" class="btn view-culture-foods">View Foods</a>
+                </div>
+                <div class="culture-card" data-culture="tharu">
+                    <img src="image/tharu-cuisine.png" alt="Tharu Cuisine">
+                    <h3>Tharu Cuisine</h3>
+                    <p>Terai region flavors</p>
+                    <a href="#" class="btn view-culture-foods">View Foods</a>
+                </div>
+                <div class="culture-card" data-culture="rai-limbu">
+                    <img src="image/Limbu-cuisine.png" alt="Rai/Limbu Cuisine">
+                    <h3>Rai/Limbu Cuisine</h3>
+                    <p>Hilly region flavors</p>
+                    <a href="#" class="btn view-culture-foods">View Foods</a>
+                </div>
+                <div class="culture-card" data-culture="gurung">
+                    <img src="image/gurung-cuisine.png" alt="Gurung Cuisine">
+                    <h3>Gurung Cuisine</h3>
+                    <p>Flavors from the mid-hills</p>
+                    <a href="#" class="btn view-culture-foods">View Foods</a>
+                </div>
+                <div class="culture-card" data-culture="tamang">
+                    <img src="image/tamang-cuisine.png" alt="Tamang Cuisine">
+                    <h3>Tamang Cuisine</h3>
+                    <p>Rich culinary traditions of the Tamang people</p>
+                    <a href="#" class="btn view-culture-foods">View Foods</a>
+                </div>
+                
+            </div>
+        </section>
+
+        <section id="culture-foods" style="display:none;">
+            <h2 id="culture-title">Culture Foods</h2>
+            <div class="food-grid" id="foods-container">
+                <!-- Foods will be dynamically loaded here -->
+            </div>
+            <button id="back-to-cultures" class="btn">Back to Cultures</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 Nepali Cuisine Explorer</p>
+            <div class="social-links">
+                <a href="#">Facebook</a>
+                <a href="#">Instagram</a>
+                <a href="#">YouTube</a>
+            </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
